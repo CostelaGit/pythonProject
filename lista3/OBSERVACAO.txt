@@ -1,0 +1,14 @@
+Todas as questões utilizando while devem ser feitas de duas formas distinta. Uma com a saída do laço
+baseada na expressão booleana do laço. Exemplo:
+i = 0
+    while (i < 10):
+        print (i)
+        i = i + 1
+
+E outra com a saída do laço regida pela palavra reservada break. Exemplo:
+i = 0
+while True:
+        if(i>9):
+            break
+        print (i)
+        i = i + 1
